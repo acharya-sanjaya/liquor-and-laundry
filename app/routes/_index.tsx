@@ -14,7 +14,7 @@ export const meta: MetaFunction = () => {
       content:
         "Fast laundry services and a wide liquor selection in Lakeside, Kaski (33700). Visit Ashish Cold Stores for same-day laundry and top local and imported liquors.",
     },
-    { name: "keywords", content: "laundry service, liquor store, Lakeside Pokhara, Kaski, same-day laundry, wine shop, 33700" },
+    { name: "keywords", content: "laundry service, fast laundry service, liquor store, Lakeside, Pokhara, Kaski, same-day laundry, wine shop, 33700, " },
     { name: "author", content: "Ashish Cold Stores and Laundry Service" },
     { name: "robots", content: "index, follow" },
   ];
