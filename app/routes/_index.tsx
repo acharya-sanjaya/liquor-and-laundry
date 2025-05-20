@@ -16,7 +16,8 @@ export const meta: MetaFunction = () => {
     },
     { name: "keywords", content: "laundry service, liquor store, Lakeside Pokhara, Kaski, same-day laundry, wine shop, 33700" },
     { name: "author", content: "Ashish Cold Stores and Laundry Service" },
-    { name: "robots", content: "index, follow" },  ];
+    { name: "robots", content: "index, follow" },
+  ];
 };
 
 export default function Index() {
