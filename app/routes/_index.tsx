@@ -8,13 +8,17 @@ import Services from "~/components/Services";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Laundry & Liquor in Lakeside, Pokhara | Ashish Cold Stores" },
+    { title: "Ashish Cold Stores and Laundry Service, Lakeside Pokhara" },
     {
       name: "description",
       content:
-        "Fast laundry services and a wide liquor selection in Lakeside, Kaski (33700). Visit Ashish Cold Stores for same-day laundry and top local and imported liquors.",
+        "Cold storage and professional laundry services in Lakeside, Pokhara. Fast service, quality care for clothes and beverages.",
     },
-    { name: "keywords", content: "laundry service, fast laundry service, liquor store, Lakeside, Pokhara, Kaski, same-day laundry, wine shop, 33700, " },
+    {
+      name: "keywords",
+      content:
+        "Ashish Cold Stores, Laundry Service Pokhara, Lakeside laundry, cold storage Pokhara, fast laundry Nepal, Pokhara wash and fold, dry cleaning, Pokhara business services",
+    },
     { name: "author", content: "Ashish Cold Stores and Laundry Service" },
     { name: "robots", content: "index, follow" },
   ];
