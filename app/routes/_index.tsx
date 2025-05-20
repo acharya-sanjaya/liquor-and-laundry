@@ -8,9 +8,15 @@ import Services from "~/components/Services";
 
 export const meta: MetaFunction = () => {
   return [
-    {title: "Ashish Cold Stores and Laundry Service"},
-    {name: "description", content: "Welcome to Remix!"},
-  ];
+    { title: "Laundry & Liquor in Lakeside, Pokhara | Ashish Cold Stores" },
+    {
+      name: "description",
+      content:
+        "Fast laundry services and a wide liquor selection in Lakeside, Kaski (33700). Visit Ashish Cold Stores for same-day laundry and top local and imported liquors.",
+    },
+    { name: "keywords", content: "laundry service, liquor store, Lakeside Pokhara, Kaski, same-day laundry, wine shop, 33700" },
+    { name: "author", content: "Ashish Cold Stores and Laundry Service" },
+    { name: "robots", content: "index, follow" },  ];
 };
 
 export default function Index() {
