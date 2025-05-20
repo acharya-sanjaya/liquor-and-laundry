@@ -21,6 +21,7 @@ export default function Feedback() {
 
   return (
     <div className="flex flex-col gap-8 md:flex-row md:flex-wrap">
+      <div className="mb-4 text-3xl font-bold">Client's Reviews</div>
       {reviews.map((review) => (
         <Review key={review.name} {...review} />
       ))}
