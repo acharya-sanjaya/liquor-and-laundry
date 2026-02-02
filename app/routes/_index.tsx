@@ -4,6 +4,7 @@ import Features from "~/components/Features";
 import Feedback from "~/components/Feedback";
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";
+import LocationMap from "~/components/LocationMap.tsx";
 import Services from "~/components/Services";
 
 export const meta: MetaFunction = () => {
@@ -17,10 +18,9 @@ export const meta: MetaFunction = () => {
     {
       name: "keywords",
       content:
-        "Ashish Cold Stores, Laundry Service Pokhara, Lakeside laundry, cold storage Pokhara, fast laundry Nepal, Pokhara wash and fold, dry cleaning, Pokhara business services",
+        "Ashish Cold Stores, Laundry Service Pokhara, Laundry Service Lakeside, Lakeside laundry, cold store pokhara, fast laundry Nepal, Pokhara wash and fold, dry cleaning, Pokhara business services",
     },
     { name: "author", content: "Ashish Cold Stores and Laundry Service" },
-    { name: "robots", content: "index, follow" },
   ];
 };
 
@@ -30,6 +30,7 @@ export default function Index() {
       <Header />
       <Services />
       <Features />
+      <LocationMap />
       <Feedback />
       <Contact />
       <Footer />
